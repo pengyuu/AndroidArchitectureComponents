@@ -58,7 +58,7 @@ dependencies {
     testImplementation deps.mockito.all
     testImplementation deps.hamcrest
     testImplementation deps.arch_core.testing
-    testImplementation deps.kotlin.stdlib
+    implementation deps.kotlin.stdlib
     testImplementation deps.kotlin.test
     //    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     //    implementation 'com.android.support:appcompat-v7:28.0.0'
